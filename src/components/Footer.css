@@ -4,7 +4,7 @@
     font-size: 20px;
     text-decoration: none;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
     gap: 50px;
     padding:30px;
@@ -14,15 +14,20 @@
 .wrapper{
     
     display:flex;
-    justify-content:flex-start;
-    align-items:flex-start;
-}
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    align-items: baseline;
+    align-self: baseline;
+    align-content: baseline;
+    margin-top: 15px;
+}  
 a{
     color:white;
     margin-right:10px;
     font-size: 20px;
     text-decoration: none;
-   
+    margin: 10px;
 }
 .contacts-list{
 

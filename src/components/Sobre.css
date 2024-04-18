@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     align-self: center; 
+    text-align: center;
 }
 .header-content{
 
@@ -18,6 +19,7 @@
     color: white;
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 20px;
+    
 }
 .content{
     font-size: 20px;
@@ -62,14 +64,16 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .header{
-       font-size: 20px;
-    }
-    .header-content{
         font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40%;
+        
+        text-align: center;
     }
-    .content{
-        margin-top: 15px;
-        font-size: 15px;
+    .tag{
+        margin-top: 20px;
     }
     .figure{
         width: auto;
@@ -85,6 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     flex-direction: column;
     padding: 0 10vw 0 10vw;
 }
