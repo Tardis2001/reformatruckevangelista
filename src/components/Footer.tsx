@@ -22,7 +22,7 @@ function Footer() {
                         </a>
                     </div>
                     
-                <img src="logo.jpeg" alt="Logo" width={150} height={150} />
+                <img src="logo.png" alt="Logo" width={150} height={150} />
                 </ul>
             </footer>
         </>
