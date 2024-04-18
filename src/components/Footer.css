@@ -47,4 +47,11 @@ footer{
         flex-direction:column;
         gap: 20px;
     }
+    .contacts{
+        display:flex;
+        justify-content:left;
+        align-items:left;
+        flex-direction:column;
+        gap: 20px;
+    }
 }
