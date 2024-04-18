@@ -71,6 +71,10 @@
         margin-top: 15px;
         font-size: 15px;
     }
+    .figure{
+        width: auto;
+        height: auto;
+    }
 }
 .main {
     background-image:url("./../../public/local.png");
