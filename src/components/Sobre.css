@@ -1,0 +1,124 @@
+.section {
+    height: 100%;
+}
+.header{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 5%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center; 
+}
+.header-content{
+
+    font-size: 40px;
+    
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 20px;
+}
+.content{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    overflow-x: hidden;
+    padding:100px 0;
+}
+.figure{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.imageContainer {
+    border-radius: 1rem;
+    display: flex;
+    object-fit:contain;
+    justify-content: center;
+    align-items: center;
+
+    width:fit-content;  
+    height:fit-content;
+}
+
+.image {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+@media screen and (max-width: 760px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .header{
+       font-size: 20px;
+    }
+    .header-content{
+        font-size: 20px;
+    }
+    .content{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+}
+.main {
+    background-image:url("./../../public/local.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10vw 0 10vw;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Define a keyframe animation */
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0.5rem); /* Start position */
+    }
+    50% {
+        transform: translateY(1rem); /* Move up */
+    }
+    100% {
+        transform: translateY(0.5rem); /* Move down */
+    }
+}
+
+/* Apply the animation to the .img class */
+.img {
+    animation: moveUpDown 2s ease infinite; /* Adjust the duration and timing function as needed */
+    transform: scale(75%);
+}
+.sectionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10vw 0 10vw;
+    margin: 10%;
+}
