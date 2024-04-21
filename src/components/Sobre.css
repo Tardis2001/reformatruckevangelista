@@ -3,7 +3,7 @@
 }
 .header{
     font-family: "Josefin Sans", sans-serif;
-    margin: 5%;
+    margin: 10% 0;
     font-size: 30px;
     color: white;
     display: flex;
@@ -68,7 +68,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 40%;
+        margin-bottom: 10%;
         
         text-align: center;
     }
@@ -81,7 +81,7 @@
     }
 }
 .main {
-    background-image:url("./../../public/local.png");
+    background-image:url("./../../public/local2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -5,7 +5,7 @@
     text-decoration: none;
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items:first baseline;
     gap: 50px;
     padding:30px;
     background-color: beige;
@@ -14,14 +14,14 @@
 .wrapper{
     
     display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:center;
-    text-align: center;
-    align-items: baseline;
-    align-self: baseline;
-    align-content: baseline;
     margin-top: 15px;
-}  
+} 
+.wrapper-local{
+    border: 1px solid black;
+    padding: 10px;
+} 
 a{
     color:white;
     margin-right:10px;
@@ -35,11 +35,6 @@ a{
     font-size: 20px;
     text-decoration: none;
 }
-footer{
-    margin-top:100px;
-    width: 100%;
-}
-
 @media screen and (max-width: 760px) {
     .contacts h1{
         display:none;
